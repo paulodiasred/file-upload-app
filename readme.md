@@ -2,7 +2,7 @@
 
 Bem-vindo ao **FileUploadApp**! Este é um projeto desenvolvido com o objetivo de criar uma aplicação que permite o upload de arquivos, armazena essas informações em uma tabela de banco de dados e exibe os dados para o usuário.
 
----
+![Tela inicial do projeto](wwwroot/img/upload.png)
 
 ## 🚀 Tecnologias Utilizadas
 
