@@ -4112,11 +4112,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Red\\Documents\\FileUploadApp\\FileUploadApp.csproj",
+      "projectUniqueName": "C:\\Users\\Red\\Documents\\FileUploadApp\\file-upload-app\\FileUploadApp.csproj",
       "projectName": "FileUploadApp",
-      "projectPath": "C:\\Users\\Red\\Documents\\FileUploadApp\\FileUploadApp.csproj",
+      "projectPath": "C:\\Users\\Red\\Documents\\FileUploadApp\\file-upload-app\\FileUploadApp.csproj",
       "packagesPath": "C:\\Users\\Red\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Red\\Documents\\FileUploadApp\\obj\\",
+      "outputPath": "C:\\Users\\Red\\Documents\\FileUploadApp\\file-upload-app\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

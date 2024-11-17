@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HCWy/f624uc=",
+  "dgSpecHash": "YIdS8DIoXIo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Red\\Documents\\FileUploadApp\\FileUploadApp.csproj",
+  "projectFilePath": "C:\\Users\\Red\\Documents\\FileUploadApp\\file-upload-app\\FileUploadApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Red\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Red\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
