@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Página Inicial - Projeto de Upload de Arquivos";
+    Layout = "~/Views/Shared/_Layout.cshtml"; // Certifique-se de que o layout está sendo referenciado corretamente
+}
+<header>
+    <img class="logotipo" src="/img/up-logo.png" alt="logotipo" />
+    <h1>Bem-vindo ao Projeto de Upload de Arquivos</h1>
+    <link rel="stylesheet" type="text/css" href="/css/site.css" />
+
+</header>
+
+<body>
+    <div class="container">
+        <p>Este projeto permite que você faça o upload de arquivos e visualize a lista de arquivos enviados.</p>
+
+        <div class="upload-area" id="upload-area">
+            <p>ARRASTE E SOLTE OS ARQUIVOS AQUI <br> ou se preferir...</p>
+            <div id="file-list"></div> <!-- Adicionado para exibir a lista de arquivos -->
+            <label for="file-upload" class="file-upload-label">
+                Escolha um arquivo para fazer upload
+            </label>
+            <input type="file" id="file-upload" multiple style="display: none;">
+        </div>
+        <button class="cancel-button">Cancelar</button>
+        <button class="upload-button">Fazer Upload</button>
+        <script src="/js/site.js"></script>
+</body>

@@ -1,0 +1,172 @@
+/* Define primary colors */
+:root {
+    --primary-color: #333; /* Dark color for header */
+    --secondary-color: #555; /* For buttons and main sections */
+    --background-color: #f4f4f4; /* Light background for contrast */
+    --accent-color: #007bff; /* Optional accent color for links/buttons */
+    --text-color: #333; /* Main text color */
+}
+
+body, html {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main Section */
+main {
+    flex: 1; /* Faz com que o main expanda para ocupar o espaço restante */
+    text-align: center;
+    padding: 50px 20px;
+    background-color: white;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Sombra mais suave e profunda */
+}
+
+main h1 {
+    font-size: 2.2em;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+main p {
+    font-size: 1.2em;
+    color: var(--secondary-color);
+}
+
+.logotipo {
+    width: 200px;
+}
+
+/* Footer */
+footer {
+    background-color: #e8e8e8;
+    padding: 10px;
+    text-align: center;
+    font-size: 0.9em;
+    color: var(--secondary-color);
+    margin-top: auto; /* Empurra o footer para o final da página */
+}
+
+/* Button Styles */
+button {
+    background-color: var(--accent-color);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #c45f43; /* Cor mais escura do que o azul principal */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header nav a {
+        display: block;
+        margin: 10px 0;
+    }
+    
+    main {
+        padding: 30px 10px;
+    }
+}
+
+.upload-area {
+    border: 2px dashed #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+    color: #888;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 20px 0;
+}
+
+.upload-area:hover {
+    background-color: #f0f0f0;
+} 
+
+/* .upload-area {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: #f9f9f9;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.upload-area::before{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 200%;
+    background: linear-gradient(180deg, #2b4449, #c45f43);
+    animation: animate 3s linear infinite;
+}
+.upload-area::after{
+    content: "";
+    position: absolute;
+    background-color: #ffffff;
+    inset: 5px;
+    border-radius: inherit;
+}
+
+@keyframes animate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+} */
+
+.file-upload-label {
+    display: inline-block;
+    background-color: #6c757d;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cancel-button, .upload-button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cancel-button {
+    background-color: #6c757d;
+}
+
+.upload-button {
+    background-color: #2b4449;
+}
+
+label:hover {
+    background-color: #c45f43;
+}
+
+.navbar-img {
+    padding-right: 5px;
+}

@@ -1,0 +1,21 @@
+﻿<h2>Lista de Arquivos</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Nome do Arquivo</th>
+            <th>Data de Envio</th>
+            <th>Visualizar</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var arquivo in Model)
+        {
+            <tr>
+                <td>@arquivo.NomeArquivo</td>
+                <td>@arquivo.DataEnvio</td>
+                <td><a href="@arquivo.CaminhoArquivo" target="_blank">Abrir</a></td>
+            </tr>
+        }
+    </tbody>
+</table>

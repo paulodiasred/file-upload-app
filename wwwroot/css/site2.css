@@ -1,0 +1,100 @@
+/* site.css */
+
+/* Defini��es de estilo para o header */
+header {
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: white; 
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Estilos para os links de navega��o */
+.navbar-nav .nav-item .nav-link {
+    color: #333;
+    padding: 0.5rem 1rem;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #007bff;
+    background-color: #e9ecef;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para o footer */
+footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #e1e5e8;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+/* Estilos para a container principal */
+.container {
+    padding: 40px;
+    text-align: center;
+}
+
+/* Estilos para o bot�o de upload e lista */
+.button-container {
+    margin-top: 30px;
+}
+
+.buttons {
+    text-align: center; /* Alinha os bot�es ao centro */
+}
+
+a {
+    text-decoration: none;
+    color: #343a40;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 1.1em;
+    display: inline-block; /* Garantia que os bot�es fiquem lado a lado */
+}
+
+a.upload {
+    background-color: #28a745; /* Cor verde */
+    color:white;
+}
+
+a.lista {
+    background-color: #007bff; /* Cor azul */
+    color:white;
+}
+
+a.upload:hover,
+a.lista:hover {
+    opacity: 0.9; /* Efeito ao passar o mouse */
+}
+
+/* Media queries para responsividade */
+@media (max-width: 768px) {
+    a {
+        display: block; /* Bot�es empilhados em telas pequenas */
+        width: 100%; /* Ocupa a largura total em telas pequenas */
+    }
+}
+
+@media (min-width: 769px) {
+    a {
+        display: inline-block; /* Bot�es lado a lado em telas grandes */
+    }
+}
